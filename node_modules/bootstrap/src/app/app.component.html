@@ -1,0 +1,109 @@
+<head>
+    <title>abc</title>
+    <meta charset="utf-8">
+
+    <!--Meta elements are typically used to specify page 
+      description, keywords, author of the document, last 
+      modified, and other metadata.-->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <!--The <link> element is used to define a relationship between an HTML document and an external resource. 
+      This element is most commonly used to define the relationship between a document and one or more external CSS stylesheets.-->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <!--The <script> element either contains scripting statements, or it 
+      points to an external script file through the src attribute.-->
+</head>
+
+
+
+<body>
+  <table style="width:80%" class="table" padding="20%" >
+  <tr align="center">
+    <th align="left">
+        <img src="assets/images/aaa.jpeg"  width="150" height="100">
+    </th>
+    <th align="text-align:center">
+      <h2>Department</h2>
+    </th>
+    <th>
+      <h2>Employee</h2>
+    </th>
+    <th>
+      <h2>About</h2>
+    </th>
+    <th>
+      <h2>News</h2>
+    </th>
+  </tr>
+  <tr align="center">
+    <th align="center" colspan="5" class="tt">
+      <a href="https://www.w3schools.com/html/default.asp" >Visit to HTML Learing website</a>
+    </th>
+  </tr>
+  
+</table>
+  
+<form action="/action_page.php">
+  <fieldset>
+    <legend>Personal information:</legend>
+    First name:<br>
+    <input type="text" name="firstname" >
+    <br>
+    Last name:<br>
+    <input type="text" name="lastname" >
+    <br><br>
+    <input type="submit" value="Submit">
+  </fieldset>
+</form><br>
+<b><ins>Embedded Tag </ins></b><br><br>
+<embed align="center" height="300px" width="300px "src="assets/images/bbb.gif"><br>
+  <br>
+  <b><ins>Audio Tag </ins></b><br><br>
+  <audio controls>
+      <source src="assets/images/abbb.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio><br>
+
+<b><ins>Output Tag </ins></b><br><br>
+    <form oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+        <input type="number" id="a" value="10">   +      
+        <input type="number" id="b" value="50">
+        =<output name="x" for="a b"></output>
+        </form><br><br>
+
+
+     <b> <ins>Data List</ins></b><br>
+<form action="/action_page.php">
+  <input list="browsers" name="browser">
+  <datalist id="browsers">
+    <option value="Internet Explorer">
+    <option value="Firefox">
+    <option value="Chrome">
+    <option value="Safari">
+  </datalist>
+</form><br><br>
+
+<b><ins>Video Tag</ins></b><br>
+<video width="500" height="240" controls>
+    <source src="assets/images/Cat.mp4" type="video/mp4">
+      </video>
+<br><br>
+      
+<b><ins>Delete Tag</ins></b><br><br>
+<p>My favorite color is <del>blue</del> <ins>    Red & Black</ins>!</p>
+<br>
+
+<b><ins>Example Of Viewport that are used in meta Tag</ins></b><br><br>
+<img  src="assets/images/img_viewport1.png"  style="border:1px solid #000000"> &nbsp;&nbsp;&nbsp;&nbsp;
+<img src="assets/images/img_viewport2.png" style="border:1px solid #000000"><br><br>
+<b>&nbsp;&nbsp;&nbsp;Without Viewport</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;
+<b>With Viewport</b><br><br><br><br>
+  </body>
+<router-outlet></router-outlet>

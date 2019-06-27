@@ -1,0 +1,52 @@
+tr.a
+{
+  background-color: rgb(191, 197, 187);
+}
+tr.b{
+  
+  background-color: rgb(118, 126, 121);
+}
+td.c
+{
+  text-align: left;
+}
+table {
+  border: 1px solid black;
+}
+a.hover
+{
+  background-color: #4CAF50;
+  color: white;
+}
+a.active
+{
+    color:#039be5;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(136, 136, 136);
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 17px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: rgb(219, 219, 219);
+}
+
+.active {
+  background-color: rgb(146, 165, 146);
+}
